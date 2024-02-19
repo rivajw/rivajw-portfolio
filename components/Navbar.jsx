@@ -8,19 +8,19 @@ const Navbar = () => {
       <ul>
         <Link href="/" passHref>
           <li className={router.pathname == "/" ? `${style.active}` : ""}>
-            _hello
+            Hello
           </li>
         </Link>
         <Link href="/about" passHref>
           <li className={router.pathname == "/about" ? `${style.active}` : ""}>
-            _about me
+            About Me
           </li>
         </Link>
-        <Link href="/project" passHref>
+        <Link href="/contact" passHref>
           <li
-            className={router.pathname == "/project" ? `${style.active}` : ""}
+            className={router.pathname == "/contact" ? `${style.active}` : ""}
           >
-            _projects
+            Contact
           </li>
         </Link>
       </ul>

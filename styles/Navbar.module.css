@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 .active {
-  border-top: 2px solid rgb(191, 97, 106) !important;
+  border-top: 2px solid #ea1d6f !important;
   background-color: rgb(13, 17, 23);
   border-bottom: none;
 }

@@ -12,15 +12,22 @@
   display: flex;
   margin-left: 10%;
   /* background-color: rgb(51, 41, 107); */
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow: scroll;
+  align-items: flex-start;
   height: 500px;
   position: relative;
+}
+
+.about .leader_div {
+  align-self: center;
 }
 
 .about .left_number {
   display: flex;
   flex-direction: column;
   font-size: 16px;
+  position: fixed;
 }
 .about .left_line {
   width: 1px;
@@ -56,10 +63,100 @@
   /* margin-top: 1rem; */
   justify-content: center;
   margin-left: 14px;
-  color: rgb(151, 153, 163);
+  color: rgba(212, 212, 212, 1);
 }
 .about .left_about span {
   font-size: 18px;
+}
+.about #edu {
+  font-size: calc(18px + 0.5vw);
+  font-weight: 500;
+  color: rgb(235,203,139);
+}
+.about #university, #skills {
+  padding-left: calc(5px + 0.5vw);
+  padding-top: calc(5px + 0.1vw);
+  margin-bottom: calc(-5px - 0.1vw);
+  font-size: calc(16px + 0.5vw);
+  color: rgba(243, 224, 185, 1);
+}
+.about .about_list li{
+  padding-bottom: calc(1px + 0.1vw);
+}
+.about #intern {
+  font-size: calc(18px + 0.5vw);
+  font-weight: 500;
+  color: rgb(136,192,208);
+}
+.about #int_1, #int_2, #int_3 {
+  padding-left: calc(5px + 0.5vw);
+  padding-top: calc(5px + 0.1vw);
+  margin-bottom: calc(-5px - 0.1vw);
+  font-size: calc(16px + 0.5vw);
+  color: rgba(200, 226, 233, 1);
+}
+.about .intern_loc {
+  padding-left: calc(13px + 1vw);
+  padding-top: calc(5px + 0.2vw);
+  color: rgba(215, 234, 239, 1);
+  margin-bottom: -5px;
+}
+.about #academic {
+  font-size: calc(18px + 0.5vw);
+  font-weight: 500;
+  color: rgb(191,97,106);
+}
+.about #aca_1, #aca_2, #aca_3, #aca_4 {
+  padding-left: calc(5px + 0.5vw);
+  padding-top: calc(5px + 0.1vw);
+  margin-bottom: calc(-5px - 0.1vw);
+  font-size: calc(16px + 0.5vw);
+  color: rgb(239, 193, 198);
+}
+.about .aca_loc {
+  padding-left: calc(13px + 1vw);
+  padding-top: calc(5px + 0.2vw);
+  color: rgb(239, 193, 198);
+  margin-bottom: -5px;
+}
+.about .aca_detail {
+  padding-left: calc(13px + 1vw);
+  padding-top: calc(6px + 0.2vw);
+  margin-bottom: -5px;
+  font-weight: 700;
+  font-style: italic;
+}
+/* .about .aca_list {
+  padding-left: calc(13px + 1vw);
+  padding-top: calc(5px + 0.2vw);
+  color: rgba(215, 234, 239, 1);
+  margin-bottom: -5px;
+} */
+.about .aca_a_tag {
+  color: rgb(237, 173, 180);
+}
+.about .aca_a_tag:hover {
+  color: rgb(223, 139, 147);
+  text-decoration: underline;
+}
+
+.about #leader {
+  font-size: calc(18px + 0.5vw);
+  font-weight: 500;
+  color: rgb(163,190,140);
+}
+.about #lead_1{
+  padding-left: calc(5px + 0.5vw);
+  padding-top: calc(5px + 0.1vw);
+  margin-bottom: calc(-5px - 0.1vw);
+  font-size: calc(16px + 0.5vw);
+  color: rgb(214, 234, 196);
+}
+.about .lead_loc {
+  padding-left: calc(13px + 1vw);
+  padding-top: calc(5px + 0.2vw);
+  color: rgb(214, 234, 196);
+  margin-bottom: -5px;
 }
 .about .ml_2 {
   margin-left: -15px;
@@ -90,10 +187,31 @@
   cursor: pointer;
   width: fit-content;
 }
-.about .right .showSkill {
+.about .right .showEdu {
+  margin-left: 30px;
+  color: rgb(235,203,139);
+}
+
+.about .right .showIntern {
   margin-left: 30px;
   color: rgb(129, 161, 193);
 }
+
+.about .right .showAca {
+  margin-left: 30px;
+  color: rgb(191,97,106);
+}
+
+.about .right .showLead {
+  margin-left: 30px;
+  color: rgb(163,190,140);
+}
+
+.about .right .dropdownText {
+  color: white;
+  font-size: 16px;
+}
+
 .about .skill_menu {
   position: absolute;
   right: 1rem;
