@@ -232,7 +232,7 @@ const ContactUs = () => {
               <input className={style.app_form_control} placeholder="CONTACT NO"/>
             </div> */}
             <div className={style.app_form_group}>
-              <textarea className={style.app_form_control} id={style.message} placeholder="MESSAGE" 
+              <input className={style.app_form_control} id={style.message} placeholder="MESSAGE" 
               name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}

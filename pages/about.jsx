@@ -155,7 +155,7 @@ const About = () => {
               <li><b>Major:</b> Mathematics and Computer Science</li>
               <li><b>Minor:</b> Computer Engineering</li>
               <li><b>Cumulative GPA:</b> 3.93</li>
-              <li><b>Honors:</b> Dean's Honors Lists for 2021 Spring - 2023 Fall</li>
+              <li><b>Honors:</b> Dean&apos;s Honors Lists for 2021 Spring - 2023 Fall</li>
             </ul>
 
             {/* Skills */}
@@ -204,7 +204,7 @@ const About = () => {
             <p><span id={style.aca_1}>Biopsy Adequacy Assessment Tool (Spring 2023 - Current)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Coauthor of paper "A web-based tool for real-time adequacy assessment of kidney biopsies".</li>
+              <li>Coauthor of paper &quot;A web-based tool for real-time adequacy assessment of kidney biopsies&quot;.</li>
               <li>Developed front-end website for Biopsy adequacy assessment with Authentication, evaluation, <br></br>and cropping function using React.</li>
               <li>Trained MedSAM model with real data to increase accuracy of evaluating kidney segmentations.</li>
               <li>Visit Website: <a className={style.aca_a_tag} href="http://biopsyadequacy.org/">Biopsy Adequacy Accessment</a>.</li>
@@ -216,8 +216,8 @@ const About = () => {
             <p className={style.aca_detail}>Developed a website for a private medical clinic in a team of 3.</p>
             <ul className={style.about_list}>
               <li>Utilized HTML, CSS.</li>
-              <li>Demonstration: <a className={style.aca_a_tag} href="https://cs-people.bu.edu/alinajw/index.html" target="_blank">Aamir A Faruqui MD Inc.</a></li>
-              <li><a className={style.aca_a_tag} href="https://github.com/rivajw/CS-103-final-project" target="_blank">Github repository.</a></li>
+              <li>Demonstration: <a className={style.aca_a_tag} href="https://cs-people.bu.edu/alinajw/index.html" target="_blank" rel="noreferrer">Aamir A Faruqui MD Inc.</a></li>
+              <li><a className={style.aca_a_tag} href="https://github.com/rivajw/CS-103-final-project" target="_blank" rel="noreferrer">Github repository.</a></li>
             </ul>
             
             {/* BPD Budget Expenditure Analysis (Fall 2023) */}
@@ -226,7 +226,7 @@ const About = () => {
             <ul className={style.about_list}>
               <li>Delved into the financial intricacies of the Boston Police Department (BPD), spans year-over-year <br></br>budget changes, the utilization of injury pay, identification of wasteful overtime practices in a team of 5.</li>
               <li>Analyzed provided data with EDA approach and designed a prediction model for project extension.</li>
-              <li><a className={style.aca_a_tag} href="https://github.com/BU-Spark/ds-police-overtime/tree/main/fa23-team-e" target="_blank">Github repository.</a></li>
+              <li><a className={style.aca_a_tag} href="https://github.com/BU-Spark/ds-police-overtime/tree/main/fa23-team-e" target="_blank" rel="noreferrer">Github repository.</a></li>
             </ul>
 
             {/* Software Development (Spring 2023 - Current) */}
@@ -239,7 +239,7 @@ const About = () => {
               <li>Enabled users to bounce between several windows without terminating the program.</li>
               <li>Incorporated an user-facing SFML for background music.</li>
             </ul>
-            <p className={style.aca_detail}><a className={style.aca_a_tag} href="https://github.com/rivajw/EC327-Project-Tic-Tac-Toe" target="_blank">Github repository.</a></p>
+            <p className={style.aca_detail}><a className={style.aca_a_tag} href="https://github.com/rivajw/EC327-Project-Tic-Tac-Toe" target="_blank" rel="noreferrer">Github repository.</a></p>
           </div>
 
           {/* Leadership */}
