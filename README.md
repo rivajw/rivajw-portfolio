@@ -37,4 +37,6 @@ $ npm run dev
 
     Design : https://dribbble.com/shots/17254830-Portfolio-Concept
 
-    Original template src: https://github.com/kasim393/Nextjs-Portfolio
+    Logo : https://icon-icons.com/icon/3dcube/257071
+
+    Original template src : https://github.com/kasim393/Nextjs-Portfolio
