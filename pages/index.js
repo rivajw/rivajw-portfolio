@@ -114,12 +114,30 @@ export default function Home() {
                   },
                 }}
               >
-                <p>&#x276F;</p>
+                <motion.p
+                initial="hidden"
+                animate="visible"
+                variants={{
+                  hidden: {
+                    x: "100px",
+                    opacity: 0,
+                  },
+                  visible: {
+                    x: 0,
+                    opacity: 1,
+                    transition: {
+                      delay: 0.4,
+                      duration: 0.4,
+                    },
+                  },
+                }}
+                >&#x276F;
                 <input
                   type="text"
                   placeholder="about / contact"
                   onChange={(e) => setText(e.target.value)}
                 />
+                </motion.p>
               </motion.div>
             </div>
           </div>
