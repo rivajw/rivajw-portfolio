@@ -194,6 +194,16 @@ const About = () => {
               <li>Provide students in the Combinatoric Structures courses with additional course guidance.</li>
               <li>Assist with the weekly meetings of one lab or discussion section by providing one-on-one<br></br> assistance to students as they complete the section exercises.</li>
             </ul>
+         
+
+          {/* Customer Service Associate (Fall 2020) */}
+          <p><span id={style.int_3}>Customer Service Associate (Fall 2020)</span></p>
+          <p className={style.intern_loc}>Chengdu Topvoice -- Chengdu, China</p>
+            <ul className={style.about_list}>
+              <li>Provided assistance to more than 110 customers each day to solve their respective problems, elevate<br></br> customer issues to relevant departments, and maintain brand-customer relationship.</li>
+              <li>Proposed improvement plans and initiated executions to enhance front-line employees&apos; learning opportunities<br></br> and scheduling efficiency, resulting in reduced losses from employee turnover.</li>
+              <li>Awarded as an outstanding employee for 3 consecutive months.</li>
+            </ul>
           </div>
 
           {/* Academic Experience & Projects */}
