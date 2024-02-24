@@ -133,10 +133,11 @@
   margin-bottom: -5px;
 } */
 .about .aca_a_tag {
-  color: rgb(237, 173, 180);
+  color: rgb(232, 135, 144);
+  font-style: italic;
 }
 .about .aca_a_tag:hover {
-  color: rgb(223, 139, 147);
+  color: rgb(227, 198, 201);
   text-decoration: underline;
 }
 

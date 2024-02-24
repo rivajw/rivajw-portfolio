@@ -200,16 +200,37 @@ const About = () => {
           <div id="acad_div" style={{ display: activeSection === 'acad_div' ? 'block' : 'none' }}>
             <span id={style.academic} >Academic Experience & Projects</span>
 
-            {/* A web-based tool for real-time adequacy assessment of kidney biopsies */}
+            {/* Biopsy Adequacy Assessment Tool (Spring 2023 - Current) */}
             <p><span id={style.aca_1}>Biopsy Adequacy Assessment Tool (Spring 2023 - Current)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
               <li>Coauthor of paper &quot;A web-based tool for real-time adequacy assessment of kidney biopsies&quot;.</li>
               <li>Developed front-end website for Biopsy adequacy assessment with Authentication, evaluation, <br></br>and cropping function using React.</li>
               <li>Trained MedSAM model with real data to increase accuracy of evaluating kidney segmentations.</li>
-              <li>Visit Website: <a className={style.aca_a_tag} href="http://biopsyadequacy.org/">Biopsy Adequacy Accessment</a>.</li>
+              <li>Visit Website: <a className={style.aca_a_tag} href="http://biopsyadequacy.org/" target="_blank" rel="noreferrer">Biopsy Adequacy Accessment</a>.</li>
             </ul>
 
+            {/* Evidence Analysis Tool for Human Trafficking Investigators */}
+            <p><span id={style.aca_1}>Evidence Analysis Tool for Human Trafficking Investigators (Current)</span></p>
+            <p className={style.aca_loc}>Boston University -- Boston, MA</p>
+            <ul className={style.about_list}>
+              <li>Cooperating with MIT Lincoln Laboratory&apos;s Humanitarian Assistance and Disaster Relief Systems group, <br></br> working in a team of 3 as the team representative.</li>
+              <li>Researching, designing, and building analytic software that will process images in order to extract <br></br>information and generate metadata that will be used to help investigators interact with and analyze <br></br>image-based evidence.</li>
+              <li>Ideal output: Software written in Python with documentation, with ML image classification model on <br></br>the backend.</li>
+            </ul>
+
+            {/* Autonomous Vehicle Directed Study */}
+            <p><span id={style.aca_1}>Autonomous Vehicle Directed Study (Current)</span></p>
+            <p className={style.aca_loc}>Boston University -- Boston, MA</p>
+            <ul className={style.about_list}>
+              <li>Combining theory and practical experiments using race car hardware and virtual testing environments,<br></br> the goal is to enhance the performance of the self-driving stack, both in terms of responsiveness and <br></br>control accuracy.</li>
+              <li>Focusing on both Low- and High-Level Vision and Hardware aspect, the study is done in team of 8. <br></br>
+              COLMAP model will be used to order image collection and complete 3D truck environment construction. <br></br>
+              Gaussian Splatting and NN training will be constructed for estimation of racecar position.</li>
+              <li>This project also aims for enrolling in <a href="https://f1tenth.org/" target="_blank" rel="noreferrer">F1Tenth</a> competition.</li>
+            </ul>
+
+            
             {/* Website Development (Spring 2023 - Current) */}
             <p><span id={style.aca_2}>Website Development (Spring 2023)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
@@ -238,8 +259,8 @@ const About = () => {
               <li>Built a judging program to detect and validate game results by accessing an all-possible-outcome<br></br> database as reference.</li>
               <li>Enabled users to bounce between several windows without terminating the program.</li>
               <li>Incorporated an user-facing SFML for background music.</li>
+              <li><a className={style.aca_a_tag} href="https://github.com/rivajw/EC327-Project-Tic-Tac-Toe" target="_blank" rel="noreferrer">Github repository.</a></li>
             </ul>
-            <p className={style.aca_detail}><a className={style.aca_a_tag} href="https://github.com/rivajw/EC327-Project-Tic-Tac-Toe" target="_blank" rel="noreferrer">Github repository.</a></p>
           </div>
 
           {/* Leadership */}
