@@ -161,7 +161,7 @@ const About = () => {
             {/* Skills */}
             <p><span id={style.skills}>Skills</span></p>
             <ul className={style.about_list}>
-              <li><b>Relevant Coursework:</b> Probability, Algorithms, Software Engineering, Turing Machine, Linear Algebra,<br></br> Calculus, Discrete &#38; Abstract Math, Machine Leaning, Artificial Intelligence</li>
+              <li><b>Relevant Coursework:</b> Probability, Algorithms, Software Engineering, Turing Machine, Linear Algebra, Calculus, Discrete &#38; Abstract Math, Machine Leaning, Artificial Intelligence</li>
               <li><b>CS Skills:</b> Python, Java, HTML, JavaScript, C++, C, Assembly, SQL, JupyterNotebooks, Latex</li>
               <li><b>Languages:</b> Mandarin (Native Proficiency), English (Bilingual Proficiency),<br></br> French (Elementary Proficiency), Japanese (Elementary Proficiency)</li>
             </ul>
@@ -175,15 +175,15 @@ const About = () => {
             <p><span id={style.int_1}>Technology Developer (Summer 2023)</span></p>
             <p className={style.intern_loc}>Beijing 7Runto Technology Co. ltd. -- Chengdu, China</p>
             <ul className={style.about_list}>
-              <li>Familiarized and utilized basic SQL for updating access control function by synchronizing card swiping<br></br>records before and after card replacement.</li>
-              <li>Attained basic knowledge for Java Spring framework and developed <br></br>feedback section for system-error-report.</li>
+              <li>Familiarized and utilized basic SQL for updating access control function by synchronizing card swiping records before and after card replacement.</li>
+              <li>Attained basic knowledge for Java Spring framework and developed feedback section for system-error-report.</li>
             </ul>
 
             {/* Teaching Assistance (Fall 2023 - Current) */}
             <p><span id={style.int_2}>Teaching Assistance (Fall 2023 - Current)</span></p>
             <p className={style.intern_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Assist students in the Probability in Computing course and Web Programming course with additional <br></br>course guidance by providing one-on-one assistance to students during office hours.</li>
+              <li>Assist students in the Probability in Computing course and Web Programming course with additional course guidance by providing one-on-one assistance to students during office hours.</li>
               <li>Lead two discussion sections by instructing students with relevant course materials.</li>
             </ul>
 
@@ -192,7 +192,7 @@ const About = () => {
             <p className={style.intern_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
               <li>Provide students in the Combinatoric Structures courses with additional course guidance.</li>
-              <li>Assist with the weekly meetings of one lab or discussion section by providing one-on-one<br></br> assistance to students as they complete the section exercises.</li>
+              <li>Assist with the weekly meetings of one lab or discussion section by providing one-on-one assistance to students as they complete the section exercises.</li>
             </ul>
          
 
@@ -200,8 +200,8 @@ const About = () => {
           <p><span id={style.int_3}>Customer Service Associate (Fall 2020)</span></p>
           <p className={style.intern_loc}>Chengdu Topvoice -- Chengdu, China</p>
             <ul className={style.about_list}>
-              <li>Provided assistance to more than 110 customers each day to solve their respective problems, elevate<br></br> customer issues to relevant departments, and maintain brand-customer relationship.</li>
-              <li>Proposed improvement plans and initiated executions to enhance front-line employees&apos; learning opportunities<br></br> and scheduling efficiency, resulting in reduced losses from employee turnover.</li>
+              <li>Provided assistance to more than 110 customers each day to solve their respective problems, elevate customer issues to relevant departments, and maintain brand-customer relationship.</li>
+              <li>Proposed improvement plans and initiated executions to enhance front-line employees&apos; learning opportunities and scheduling efficiency, resulting in reduced losses from employee turnover.</li>
               <li>Awarded as an outstanding employee for 3 consecutive months.</li>
             </ul>
           </div>
@@ -215,7 +215,7 @@ const About = () => {
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
               <li>Coauthor of paper &quot;A web-based tool for real-time adequacy assessment of kidney biopsies&quot;.</li>
-              <li>Developed front-end website for Biopsy adequacy assessment with Authentication, evaluation, <br></br>and cropping function using React.</li>
+              <li>Developed front-end website for Biopsy adequacy assessment with Authentication, evaluation, and cropping function using React.</li>
               <li>Trained MedSAM model with real data to increase accuracy of evaluating kidney segmentations.</li>
               <li>Visit Website: <a className={style.aca_a_tag} href="http://biopsyadequacy.org/" target="_blank" rel="noreferrer">Biopsy Adequacy Accessment</a>.</li>
             </ul>
@@ -224,16 +224,16 @@ const About = () => {
             <p><span id={style.aca_1}>Evidence Analysis Tool for Human Trafficking Investigators (Current)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Cooperating with MIT Lincoln Laboratory&apos;s Humanitarian Assistance and Disaster Relief Systems group, <br></br> working in a team of 3 as the team representative.</li>
-              <li>Researching, designing, and building analytic software that will process images in order to extract <br></br>information and generate metadata that will be used to help investigators interact with and analyze <br></br>image-based evidence.</li>
-              <li>Ideal output: Software written in Python with documentation, with ML image classification model on <br></br>the backend.</li>
+              <li>Cooperating with MIT Lincoln Laboratory&apos;s Humanitarian Assistance and Disaster Relief Systems group, working in a team of 3 as the team representative.</li>
+              <li>Researching, designing, and building analytic software that will process images in order to extract information and generate metadata that will be used to help investigators interact with and analyze image-based evidence.</li>
+              <li>Ideal output: Software written in Python with documentation, with ML image classification model on the backend.</li>
             </ul>
 
             {/* Autonomous Vehicle Directed Study */}
             <p><span id={style.aca_1}>Autonomous Vehicle Directed Study (Current)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Combining theory and practical experiments using race car hardware and virtual testing environments,<br></br> the goal is to enhance the performance of the self-driving stack, both in terms of responsiveness and <br></br>control accuracy.</li>
+              <li>Combining theory and practical experiments using race car hardware and virtual testing environments, the goal is to enhance the performance of the self-driving stack, both in terms of responsiveness and control accuracy.</li>
               <li>Focusing on both Low- and High-Level Vision and Hardware aspect, the study is done in team of 8. <br></br>
               COLMAP model will be used to order image collection and complete 3D truck environment construction. <br></br>
               Gaussian Splatting and NN training will be constructed for estimation of racecar position.</li>
@@ -255,7 +255,7 @@ const About = () => {
             <p><span id={style.aca_3}>BPD Budget Expenditure Analysis (Fall 2023)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Delved into the financial intricacies of the Boston Police Department (BPD), spans year-over-year <br></br>budget changes, the utilization of injury pay, identification of wasteful overtime practices in a team of 5.</li>
+              <li>Delved into the financial intricacies of the Boston Police Department (BPD), spans year-over-year budget changes, the utilization of injury pay, identification of wasteful overtime practices in a team of 5.</li>
               <li>Analyzed provided data with EDA approach and designed a prediction model for project extension.</li>
               <li><a className={style.aca_a_tag} href="https://github.com/BU-Spark/ds-police-overtime/tree/main/fa23-team-e" target="_blank" rel="noreferrer">Github repository.</a></li>
             </ul>
@@ -265,8 +265,8 @@ const About = () => {
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <p className={style.aca_detail}>Developed a puzzle application for Tic-Tac-Toe using C++in Linux system in a team of 4.</p>
             <ul className={style.about_list}>
-              <li>Coded an AI function to detect user behavior, perform scenario analysis, calculate optimal next steps<br></br> in order to maximize probability of winning.</li>
-              <li>Built a judging program to detect and validate game results by accessing an all-possible-outcome<br></br> database as reference.</li>
+              <li>Coded an AI function to detect user behavior, perform scenario analysis, calculate optimal next steps in order to maximize probability of winning.</li>
+              <li>Built a judging program to detect and validate game results by accessing an all-possible-outcome database as reference.</li>
               <li>Enabled users to bounce between several windows without terminating the program.</li>
               <li>Incorporated an user-facing SFML for background music.</li>
               <li><a className={style.aca_a_tag} href="https://github.com/rivajw/EC327-Project-Tic-Tac-Toe" target="_blank" rel="noreferrer">Github repository.</a></li>
@@ -281,7 +281,7 @@ const About = () => {
             <p><span id={style.lead_1}>Aglow Theatre</span></p>
             <p className={style.lead_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Leading as director of the Acting Department in recruiting and training new club members <br></br>(with proprietary training materials) as well as directing annual stage play in a team of 3.</li>
+              <li>Leading as director of the Acting Department in recruiting and training new club members (with proprietary training materials) as well as directing annual stage play in a team of 3.</li>
             </ul>
           </div>
 
