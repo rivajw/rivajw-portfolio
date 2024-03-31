@@ -163,7 +163,7 @@ const About = () => {
             <ul className={style.about_list}>
               <li><b>Relevant Coursework:</b> Probability, Algorithms, Software Engineering, Turing Machine, Linear Algebra, Calculus, Discrete &#38; Abstract Math, Machine Leaning, Artificial Intelligence</li>
               <li><b>CS Skills:</b> Python, Java, HTML, JavaScript, C++, C, Assembly, SQL, JupyterNotebooks, Latex</li>
-              <li><b>Languages:</b> Mandarin (Native Proficiency), English (Bilingual Proficiency),<br></br> French (Elementary Proficiency), Japanese (Elementary Proficiency)</li>
+              <li><b>Languages:</b> Mandarin (Native Proficiency), English (Bilingual Proficiency), French (Elementary Proficiency), Japanese (Elementary Proficiency)</li>
             </ul>
           </div>
           
