@@ -214,35 +214,36 @@ const About = () => {
             <p><span id={style.aca_1}>Biopsy Adequacy Assessment Tool (Spring 2023 - Current)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Coauthor of paper &quot;A web-based tool for real-time adequacy assessment of kidney biopsies&quot;.</li>
+              <li>Co-author paper &quot;<a className={style.aca_a_tag} href="https://www.kireports.org/article/S2468-0249(24)01795-9/fulltext" target="_blank" rel="noreferrer">Pilot Study of a Web-Based Tool for Real-Time Adequacy Assessment of Kidney Biopsies</a>&quot;, published on KIREPORTS.</li>
               <li>Developed front-end website for Biopsy adequacy assessment with Authentication, evaluation, and cropping function using React.</li>
               <li>Trained MedSAM model with real data to increase accuracy of evaluating kidney segmentations.</li>
               <li>Visit Website: <a className={style.aca_a_tag} href="http://biopsyadequacy.org/" target="_blank" rel="noreferrer">Biopsy Adequacy Accessment</a>.</li>
             </ul>
 
             {/* Evidence Analysis Tool for Human Trafficking Investigators */}
-            <p><span id={style.aca_1}>Evidence Analysis Tool for Human Trafficking Investigators (Current)</span></p>
+            <p><span id={style.aca_2}>Evidence Analysis Tool for Human Trafficking Investigators (Spring 2024)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Cooperating with MIT Lincoln Laboratory&apos;s Humanitarian Assistance and Disaster Relief Systems group, working in a team of 3 as the team representative.</li>
-              <li>Researching, designing, and building analytic software that will process images in order to extract information and generate metadata that will be used to help investigators interact with and analyze image-based evidence.</li>
-              <li>Ideal output: Software written in Python with documentation, with ML image classification model on the backend.</li>
+              <li>Lead a team of 3 to collaborate with MIT Lincoln Laboratory Humanitarian Assistance and Disaster Relief Systems to detect human trafficking warning signs from input images.</li>
+              <li>Develop analytic software aiming at automatic processing of images to extract risk signs of human trafficking, using ML image classification model (Pytorch and Tensorflow) and SAM model.</li>
+              <li><a className={style.aca_a_tag} href="https://github.com/BU-Spark/ml-mit-evidence-analysis/tree/dev" target="_blank" rel="noreferrer">Github repository.</a></li>
             </ul>
 
             {/* Autonomous Vehicle Directed Study */}
-            <p><span id={style.aca_1}>Autonomous Vehicle Directed Study (Current)</span></p>
+            <p><span id={style.aca_3}>Autonomous Vehicle Directed Study (Spring 2024 - Current)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Combining theory and practical experiments using race car hardware and virtual testing environments, the goal is to enhance the performance of the self-driving stack, both in terms of responsiveness and control accuracy.</li>
-              <li>Focusing on both Low- and High-Level Vision and Hardware aspect, the study is done in team of 8. <br></br>
-              COLMAP model will be used to order image collection and complete 3D truck environment construction. <br></br>
-              Gaussian Splatting and NN training will be constructed for estimation of racecar position.</li>
-              <li>This project also aims for enrolling in <a href="https://f1tenth.org/" target="_blank" rel="noreferrer">F1Tenth</a> competition.</li>
-            </ul>
+              <li>Develop an automatic race car for participation in F1Tenth competition in a team of 8.</li>
+              <li>Specialize high-level vision functions by applying COLMAP model to arrange image collection and construct 3D truck environment—through Gaussian Splatting and NN training for estimation of race car position.</li>
+              <li>Reform noise reduction and enhance cloud map accuracy by refining loss function.</li>
+              <li>Co-found the BU F1Tenth Autonomous Racing Organization.</li>
+              <li><a className={style.aca_a_tag} href="" target="_blank" rel="noreferrer">F1Tenth Directed Study Report</a></li>
+              <li><a className={style.aca_a_tag} href="https://github.com/F1TenthBU/gaussian-splatting/blob/main/INSTRUCTIONS.md" target="_blank" rel="noreferrer">Github repository.</a></li>
+              </ul>
 
             
             {/* Website Development (Spring 2023 - Current) */}
-            <p><span id={style.aca_2}>Website Development (Spring 2023)</span></p>
+            <p><span id={style.aca_4}>Website Development (Spring 2023)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <p className={style.aca_detail}>Developed a website for a private medical clinic in a team of 3.</p>
             <ul className={style.about_list}>
@@ -252,7 +253,7 @@ const About = () => {
             </ul>
             
             {/* BPD Budget Expenditure Analysis (Fall 2023) */}
-            <p><span id={style.aca_3}>BPD Budget Expenditure Analysis (Fall 2023)</span></p>
+            <p><span id={style.aca_5}>BPD Budget Expenditure Analysis (Fall 2023)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
               <li>Delved into the financial intricacies of the Boston Police Department (BPD), spans year-over-year budget changes, the utilization of injury pay, identification of wasteful overtime practices in a team of 5.</li>
@@ -261,7 +262,7 @@ const About = () => {
             </ul>
 
             {/* Software Development (Spring 2023 - Current) */}
-            <p><span id={style.aca_4}>Software Development (Summer 2022)</span></p>
+            <p><span id={style.aca_6}>Software Development (Summer 2022)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <p className={style.aca_detail}>Developed a puzzle application for Tic-Tac-Toe using C++in Linux system in a team of 4.</p>
             <ul className={style.about_list}>
@@ -270,6 +271,15 @@ const About = () => {
               <li>Enabled users to bounce between several windows without terminating the program.</li>
               <li>Incorporated an user-facing SFML for background music.</li>
               <li><a className={style.aca_a_tag} href="https://github.com/rivajw/EC327-Project-Tic-Tac-Toe" target="_blank" rel="noreferrer">Github repository.</a></li>
+            </ul>
+
+            {/* Subdomain Takeover Detection and Prevention Tool (Spring 2024) */}
+            <p><span id={style.aca_7}>Subdomain Takeover Detection and Prevention Tool (Spring 2024)</span></p>
+            <p className={style.aca_loc}>Boston University -- Boston, MA</p>
+            <ul className={style.about_list}>
+              <li>Develop “SubGaurdian”, a subdomain takeover vulnerability detection and prevention tool in tram of 4 utilizing Subllist3r and Cloudflare.</li>
+              <li>Specialized in Mail Exchange Record (MX) and Name Server Record (NS) check and finalized output log.</li>
+              <li><a className={style.aca_a_tag} href="https://github.com/nmedeu/SubDomainTakeover" target="_blank" rel="noreferrer">Github repository.</a></li>
             </ul>
           </div>
 
@@ -435,6 +445,9 @@ const About = () => {
                       <p>
                         <BsMarkdownFill /> <span className={style.dropdownText}>CA.md</span>
                       </p>
+                      <p>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>Customer Service Associate.md</span>
+                      </p>
                       {/* <p>
                         <BsMarkdownFill /> SSR.md
                       </p> */}
@@ -491,6 +504,12 @@ const About = () => {
                         <BsMarkdownFill /> <span className={style.dropdownText}>Biopsy Adequacy Assessment Tool.md</span>
                       </p>
                       <p>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>Evidence Analysis Tool for Human Trafficking Investigators.md</span>
+                      </p>
+                      <p>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>Autonomous Vehicle Directed Study.md</span>
+                      </p>
+                      <p>
                         <BsMarkdownFill /> <span className={style.dropdownText}>Website Development.md</span>
                       </p>
                       <p>
@@ -498,6 +517,9 @@ const About = () => {
                       </p>
                       <p>
                         <BsMarkdownFill /> <span className={style.dropdownText}>Software Development.md</span>
+                      </p>
+                      <p>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>Subdomain Takeover Detection and Prevention Tool.md</span>
                       </p>
                     </motion.div>
                   )}
