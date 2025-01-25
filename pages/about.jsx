@@ -154,16 +154,16 @@ const About = () => {
               <li><b>Boston University:</b> Bachelor of Arts</li>
               <li><b>Major:</b> Mathematics and Computer Science</li>
               <li><b>Minor:</b> Computer Engineering</li>
-              <li><b>Cumulative GPA:</b> 3.93</li>
-              <li><b>Honors:</b> Dean&apos;s Honors Lists for 2021 Spring - 2023 Fall</li>
+              <li><b>Cumulative GPA:</b> 3.91</li>
+              <li><b>Honors:</b> Dean&apos;s Honors Lists for 2021 Spring - 2024 Fall</li>
             </ul>
 
             {/* Skills */}
             <p><span id={style.skills}>Skills</span></p>
             <ul className={style.about_list}>
-              <li><b>Relevant Coursework:</b> Probability, Algorithms, Software Engineering, Turing Machine, Linear Algebra, Calculus, Discrete &#38; Abstract Math, Machine Leaning, Artificial Intelligence</li>
+              <li><b>Relevant Coursework:</b> Discrete Math, Linear Algebra, Probaiblity, Analysis in Algorithm, Software Engineering, Computer Vision, Machine Learning, Cybersecurity, Cloud Computing</li>
               <li><b>CS Skills:</b> Python, Java, HTML, JavaScript, C++, C, Assembly, SQL, JupyterNotebooks, Latex</li>
-              <li><b>Languages:</b> Mandarin (Native Proficiency), English (Bilingual Proficiency), French (Elementary Proficiency), Japanese (Elementary Proficiency)</li>
+              <li><b>Languages:</b> Mandarin (Native Proficiency), English (Bilingual Proficiency)</li>
             </ul>
           </div>
           
@@ -171,24 +171,26 @@ const About = () => {
           <div id="intern_div" style={{ display: activeSection === 'intern_div' ? 'block' : 'none' }}>
             <span id={style.intern} >Internship Experience</span>
 
-            {/* Technology Developer */}
-            <p><span id={style.int_1}>Technology Developer (Summer 2023)</span></p>
+            {/* Technology Developer (06/2023 - 08/2023) */}
+            <p><span id={style.int_1}>Technology Developer (06/2023 - 08/2023)</span></p>
             <p className={style.intern_loc}>Beijing 7Runto Technology Co. ltd. -- Chengdu, China</p>
             <ul className={style.about_list}>
-              <li>Familiarized and utilized basic SQL for updating access control function by synchronizing card swiping records before and after card replacement.</li>
-              <li>Attained basic knowledge for Java Spring framework and developed feedback section for system-error-report.</li>
+              <li>Focused on backend server and database development of the customer service personnel management system project.</li>
+              <li>Applied MySQL to synchronize 18G card swiping records and retrieved 200+ employees' missing access logs.</li>
+              <li>Used Java Spring framework to build error feedback module and streamlined correction workstream to facilitate customer service and internal report process.</li>
             </ul>
 
-            {/* Teaching Assistance (Fall 2023 - Current) */}
-            <p><span id={style.int_2}>Teaching Assistance (Fall 2023 - Current)</span></p>
+            {/* Teaching Assistance (09/2023 - 12/2024) */}
+            <p><span id={style.int_2}>Teaching Assistance (09/2023 - 12/2024)</span></p>
             <p className={style.intern_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Assist students in the Probability in Computing course and Web Programming course with additional course guidance by providing one-on-one assistance to students during office hours.</li>
-              <li>Lead two discussion sections by instructing students with relevant course materials.</li>
+              <li>Assisted teaching in Probability in Computing course and Web Programming course.</li>
+              <li>Lead recurring discussion sections of 30 students class to provide personalized learning support.</li>
+              <li>Worked for professor on material sheets, exam questions development, grading, feedback delivery, and office hours.</li>
             </ul>
 
-            {/* Course Assistance (Fall 2022 - Spring 2023) */}
-            <p><span id={style.int_3}>Course Assistance (Fall 2022 - Spring 2023)</span></p>
+            {/* Course Assistance (09/2022 - 05/2023) */}
+            <p><span id={style.int_3}>Course Assistance (09/2022 - 05/2023)</span></p>
             <p className={style.intern_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
               <li>Provide students in the Combinatoric Structures courses with additional course guidance.</li>
@@ -197,7 +199,7 @@ const About = () => {
          
 
           {/* Customer Service Associate (Fall 2020) */}
-          <p><span id={style.int_3}>Customer Service Associate (Fall 2020)</span></p>
+          <p><span id={style.int_4}>Customer Service Associate (09/2020 - 12/2020)</span></p>
           <p className={style.intern_loc}>Chengdu Topvoice -- Chengdu, China</p>
             <ul className={style.about_list}>
               <li>Provided assistance to more than 110 customers each day to solve their respective problems, elevate customer issues to relevant departments, and maintain brand-customer relationship.</li>
@@ -210,59 +212,71 @@ const About = () => {
           <div id="acad_div" style={{ display: activeSection === 'acad_div' ? 'block' : 'none' }}>
             <span id={style.academic} >Academic Experience & Projects</span>
 
-            {/* Biopsy Adequacy Assessment Tool (Spring 2023 - Current) */}
-            <p><span id={style.aca_1}>Biopsy Adequacy Assessment Tool (Spring 2023 - Current)</span></p>
+            {/* Hybrid Transactional/Analytical Processing Using Epoxy */}
+            <p><span id={style.aca_8}>Hybrid Transactional/Analytical Processing Using Epoxy (09/2024 - 12/2024)</span></p>
+            <p className={style.aca_loc}>Boston University -- Boston, MA</p>
+            <ul className={style.about_list}>
+              <li>Used Epoxy to build an HTAP system that integrates both OLTP and OLAP capabilities, supporting these two database types through a unified interface in a team of 5.</li>
+              <li>Developed incremental/delta load ETL (Extract-Transform-Load) workflow to transfer data between OLTP and OLAP systems.</li>
+            </ul>
+
+            {/* Autonomous Vehicle Directed Study */}
+            <p><span id={style.aca_3}>Autonomous Vehicle Directed Study (01/2024 - Current)</span></p>
+            <p className={style.aca_loc}>Boston University -- Boston, MA</p>
+            <ul className={style.about_list}>
+              <li>Develop an automatic race car for participation in F1Tenth competition in a team of 8.</li>
+              <li>Specialized in high-level vision by utilizing the COLMAP model for image collection and constructing 3D track environments via Gaussian splatting and reinforcement learning.</li>
+              <li>Developed Gaussian-based algorithms for localization and real-time path planning using LiDAR data, transforming discrete mappings into continuous heatmaps and enabling simultaneous localization and control.</li>
+              <li>Co-founded the Boston University Autonomous Car Racing Organization and achieved second place in the BU F1TENTH Grand Prix competition.</li>
+              <li><a className={style.aca_a_tag} href="https://drive.google.com/file/d/1Eg_eGJ85QhrpOhUtS19PBoUHQb0F-Mre/view" target="_blank" rel="noreferrer">F1Tenth Directed Study Report</a></li>
+            </ul>
+
+            {/* Biopsy Adequacy Assessment Tool (03/2023 - Current) */}
+            <p><span id={style.aca_1}>Biopsy Adequacy Assessment Tool (03/2024 - Current)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
               <li>Co-author paper &quot;<a className={style.aca_a_tag} href="https://www.kireports.org/article/S2468-0249(24)01795-9/fulltext" target="_blank" rel="noreferrer">Pilot Study of a Web-Based Tool for Real-Time Adequacy Assessment of Kidney Biopsies</a>&quot;, published on KIREPORTS.</li>
+              <li>Front-End Developer, Supervised by Post PhD Ahangaran of Kolachalama Lab.</li>
               <li>Developed front-end website for Biopsy adequacy assessment with Authentication, evaluation, and cropping function using React.</li>
-              <li>Trained MedSAM model with real data to increase accuracy of evaluating kidney segmentations.</li>
+              <li>Participated in MedSAM model training to increase accuracy of evaluating kidney segmentations by 4.5%.</li>
               <li>Visit Website: <a className={style.aca_a_tag} href="http://biopsyadequacy.org/" target="_blank" rel="noreferrer">Biopsy Adequacy Accessment</a>.</li>
             </ul>
 
             {/* Evidence Analysis Tool for Human Trafficking Investigators */}
-            <p><span id={style.aca_2}>Evidence Analysis Tool for Human Trafficking Investigators (Spring 2024)</span></p>
+            <p><span id={style.aca_2}>Evidence Analysis Tool for Human Trafficking Investigators (01/2024 - 05/2024)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
               <li>Lead a team of 3 to collaborate with MIT Lincoln Laboratory Humanitarian Assistance and Disaster Relief Systems to detect human trafficking warning signs from input images.</li>
               <li>Develop analytic software aiming at automatic processing of images to extract risk signs of human trafficking, using ML image classification model (Pytorch and Tensorflow) and SAM model.</li>
-              <li><a className={style.aca_a_tag} href="https://github.com/BU-Spark/ml-mit-evidence-analysis/tree/dev" target="_blank" rel="noreferrer">Github repository.</a></li>
             </ul>
 
-            {/* Autonomous Vehicle Directed Study */}
-            <p><span id={style.aca_3}>Autonomous Vehicle Directed Study (Spring 2024 - Current)</span></p>
+            {/* Subdomain Takeover Detection and Prevention Tool */}
+            <p><span id={style.aca_9}>Subdomain Takeover Detection and Prevention Tool (01/2024 - 05/2024)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Develop an automatic race car for participation in F1Tenth competition in a team of 8.</li>
-              <li>Specialize high-level vision functions by applying COLMAP model to arrange image collection and construct 3D truck environment—through Gaussian Splatting and NN training for estimation of race car position.</li>
-              <li>Reform noise reduction and enhance cloud map accuracy by refining loss function.</li>
-              <li>Co-found the BU F1Tenth Autonomous Racing Organization.</li>
-              <li><a className={style.aca_a_tag} href="" target="_blank" rel="noreferrer">F1Tenth Directed Study Report</a></li>
-              <li><a className={style.aca_a_tag} href="https://github.com/F1TenthBU/gaussian-splatting/blob/main/INSTRUCTIONS.md" target="_blank" rel="noreferrer">Github repository.</a></li>
-              </ul>
-
+              <li>Developed “SubGaurdian”, a subdomain takeover vulnerability detection and prevention tool in tram of 4 utilizing Subllist3r and Cloudflare.</li>
+              <li>Specialized in Mail Exchange Record (MX) and Name Server Record (NS) check and finalized output log.</li>
+            </ul>
             
+            {/* BPD Budget Expenditure Analysis (Fall 2023) */}
+            <p><span id={style.aca_5}>BPD Budget Expenditure Analysis (09/2023 - 12/2023)</span></p>
+            <p className={style.aca_loc}>Boston University -- Boston, MA</p>
+            <ul className={style.about_list}>
+              <li>Delved into the financial intricacies of the Boston Police Department (BPD), spans year-over-year budget changes, the utilization of injury pay, identification of wasteful overtime practices in a team of 5.</li>
+              <li>Analyzed provided data with EDA approach and designed a prediction model for project extension.</li>
+            </ul>
+
             {/* Website Development (Spring 2023 - Current) */}
-            <p><span id={style.aca_4}>Website Development (Spring 2023)</span></p>
+            <p><span id={style.aca_4}>Website Development (01/2023 - 05/2024)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <p className={style.aca_detail}>Developed a website for a private medical clinic in a team of 3.</p>
             <ul className={style.about_list}>
               <li>Utilized HTML, CSS.</li>
               <li>Demonstration: <a className={style.aca_a_tag} href="https://cs-people.bu.edu/alinajw/index.html" target="_blank" rel="noreferrer">Aamir A Faruqui MD Inc.</a></li>
-              <li><a className={style.aca_a_tag} href="https://github.com/rivajw/CS-103-final-project" target="_blank" rel="noreferrer">Github repository.</a></li>
             </ul>
             
-            {/* BPD Budget Expenditure Analysis (Fall 2023) */}
-            <p><span id={style.aca_5}>BPD Budget Expenditure Analysis (Fall 2023)</span></p>
-            <p className={style.aca_loc}>Boston University -- Boston, MA</p>
-            <ul className={style.about_list}>
-              <li>Delved into the financial intricacies of the Boston Police Department (BPD), spans year-over-year budget changes, the utilization of injury pay, identification of wasteful overtime practices in a team of 5.</li>
-              <li>Analyzed provided data with EDA approach and designed a prediction model for project extension.</li>
-              <li><a className={style.aca_a_tag} href="https://github.com/BU-Spark/ds-police-overtime/tree/main/fa23-team-e" target="_blank" rel="noreferrer">Github repository.</a></li>
-            </ul>
-
             {/* Software Development (Spring 2023 - Current) */}
-            <p><span id={style.aca_6}>Software Development (Summer 2022)</span></p>
+            {/* <p><span id={style.aca_6}>Software Development (Summer 2022)</span></p>
             <p className={style.aca_loc}>Boston University -- Boston, MA</p>
             <p className={style.aca_detail}>Developed a puzzle application for Tic-Tac-Toe using C++in Linux system in a team of 4.</p>
             <ul className={style.about_list}>
@@ -271,16 +285,7 @@ const About = () => {
               <li>Enabled users to bounce between several windows without terminating the program.</li>
               <li>Incorporated an user-facing SFML for background music.</li>
               <li><a className={style.aca_a_tag} href="https://github.com/rivajw/EC327-Project-Tic-Tac-Toe" target="_blank" rel="noreferrer">Github repository.</a></li>
-            </ul>
-
-            {/* Subdomain Takeover Detection and Prevention Tool (Spring 2024) */}
-            <p><span id={style.aca_7}>Subdomain Takeover Detection and Prevention Tool (Spring 2024)</span></p>
-            <p className={style.aca_loc}>Boston University -- Boston, MA</p>
-            <ul className={style.about_list}>
-              <li>Develop “SubGaurdian”, a subdomain takeover vulnerability detection and prevention tool in tram of 4 utilizing Subllist3r and Cloudflare.</li>
-              <li>Specialized in Mail Exchange Record (MX) and Name Server Record (NS) check and finalized output log.</li>
-              <li><a className={style.aca_a_tag} href="https://github.com/nmedeu/SubDomainTakeover" target="_blank" rel="noreferrer">Github repository.</a></li>
-            </ul>
+            </ul> */}
           </div>
 
           {/* Leadership */}
@@ -288,10 +293,10 @@ const About = () => {
             <span id={style.leader} >Leadership</span>
 
             {/* Aglow Theatre */}
-            <p><span id={style.lead_1}>Aglow Theatre</span></p>
+            <p><span id={style.lead_1}>Aglow Theatre (06/2022 - 12/2024)</span></p>
             <p className={style.lead_loc}>Boston University -- Boston, MA</p>
             <ul className={style.about_list}>
-              <li>Leading as director of the Acting Department in recruiting and training new club members (with proprietary training materials) as well as directing annual stage play in a team of 3.</li>
+              <li>Lead as director of the Acting Department in recruiting and training new club members (with proprietary training materials) as well as directing annual stage play in a team of 4.</li>
             </ul>
           </div>
 
@@ -372,10 +377,10 @@ const About = () => {
                       }}
                     >
                       <p>
-                        <BsMarkdownFill /> <span className={style.dropdownText}><a href="#university">University.md</a></span>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>University.md</span>
                       </p>
                       <p>
-                        <BsMarkdownFill /> <span className={style.dropdownText}><a href="#skills">Skills.md</a></span>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>Skills.md</span>
                       </p>
                       {/* <p>
                         <BsMarkdownFill /> fetching api.md
@@ -501,25 +506,25 @@ const About = () => {
                       }}
                     >
                       <p>
-                        <BsMarkdownFill /> <span className={style.dropdownText}>Biopsy Adequacy Assessment Tool.md</span>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>HTAP.md</span>
                       </p>
                       <p>
-                        <BsMarkdownFill /> <span className={style.dropdownText}>Evidence Analysis Tool for Human Trafficking Investigators.md</span>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>Autonomous Vehicle.md</span>
                       </p>
                       <p>
-                        <BsMarkdownFill /> <span className={style.dropdownText}>Autonomous Vehicle Directed Study.md</span>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>Biopsy Adequacy.md</span>
+                      </p>
+                      <p>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>Tool for Anti-Human Trafficking.md</span>
+                      </p>
+                      <p>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>SubGaurdian.md</span>
+                      </p>
+                      <p>
+                        <BsMarkdownFill /> <span className={style.dropdownText}>BPD Budget Analysis.md</span>
                       </p>
                       <p>
                         <BsMarkdownFill /> <span className={style.dropdownText}>Website Development.md</span>
-                      </p>
-                      <p>
-                        <BsMarkdownFill /> <span className={style.dropdownText}>BPD Budget Expenditure Analysis.md</span>
-                      </p>
-                      <p>
-                        <BsMarkdownFill /> <span className={style.dropdownText}>Software Development.md</span>
-                      </p>
-                      <p>
-                        <BsMarkdownFill /> <span className={style.dropdownText}>Subdomain Takeover Detection and Prevention Tool.md</span>
                       </p>
                     </motion.div>
                   )}

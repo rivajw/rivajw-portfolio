@@ -16,6 +16,11 @@ export default function Home() {
           pathname: "/about",
         });
       }
+      if (text === "project") {
+        router.push({
+          pathname: "/project",
+        });
+      }
       if (text === "contact") {
         router.push({
           pathname: "/contact",
@@ -134,7 +139,7 @@ export default function Home() {
                 >&#x276F;
                 <input
                   type="text"
-                  placeholder="about / contact"
+                  placeholder="about / project / contact"
                   onChange={(e) => setText(e.target.value)}
                 />
                 </motion.p>

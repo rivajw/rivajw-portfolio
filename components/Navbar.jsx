@@ -16,6 +16,13 @@ const Navbar = () => {
             About Me
           </li>
         </Link>
+        <Link href="/project" passHref>
+          <li
+            className={router.pathname == "/project" ? `${style.active}` : ""}
+          >
+            Project
+          </li>
+        </Link>
         <Link href="/contact" passHref>
           <li
             className={router.pathname == "/contact" ? `${style.active}` : ""}

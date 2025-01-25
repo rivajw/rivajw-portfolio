@@ -88,7 +88,7 @@
   font-weight: 500;
   color: rgb(136,192,208);
 }
-.about #int_1, #int_2, #int_3 {
+.about #int_1, #int_2, #int_3, #int_4 {
   padding-left: calc(5px + 0.5vw);
   padding-top: calc(5px + 0.1vw);
   margin-bottom: calc(-5px - 0.1vw);
@@ -106,11 +106,11 @@
   font-weight: 500;
   color: rgb(191,97,106);
 }
-.about #aca_1, #aca_2, #aca_3, #aca_4, #aca_5, #aca_6, #aca_7 {
+.about #aca_1, #aca_2, #aca_3, #aca_4, #aca_5, #aca_6, #aca_7, #aca_8, #aca_9 {
   padding-left: calc(5px + 0.5vw);
   padding-top: calc(5px + 0.1vw);
   margin-bottom: calc(-5px - 0.1vw);
-  font-size: calc(16px + 0.5vw);
+  font-size: calc(13px + 0.5vw);
   color: rgb(239, 193, 198);
 }
 .about .aca_loc {
