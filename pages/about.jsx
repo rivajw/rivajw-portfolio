@@ -176,7 +176,7 @@ const About = () => {
             <p className={style.intern_loc}>Beijing 7Runto Technology Co. ltd. -- Chengdu, China</p>
             <ul className={style.about_list}>
               <li>Focused on backend server and database development of the customer service personnel management system project.</li>
-              <li>Applied MySQL to synchronize 18G card swiping records and retrieved 200+ employees' missing access logs.</li>
+              <li>Applied MySQL to synchronize 18G card swiping records and retrieved 200+ employees&apos; missing access logs.</li>
               <li>Used Java Spring framework to build error feedback module and streamlined correction workstream to facilitate customer service and internal report process.</li>
             </ul>
 
